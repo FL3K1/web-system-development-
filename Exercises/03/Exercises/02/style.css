@@ -1,0 +1,85 @@
+/* General */
+body {
+    background-color: #f7f7f7;
+    font-family: "Segoe UI";
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #2a3d66;
+    color: white;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Main */
+main {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Lists */
+ul {
+    padding-left: 32px;
+    list-style-type: square;
+    /*list-style-image: url('') /*Para poner una imagen en vez de una forma*/ 
+}
+
+li {
+    border-bottom: 1px solid #ccc;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+/* Card */
+.card {
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    padding-left: 24px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 32px;
+    text-align: center;
+    background-color: white;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #2a3d66;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff6600;
+}
+
+/* Footer */
+footer {
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    position: static  ;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+    background-color: #2a3d66;
+}
